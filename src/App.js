@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-  import Header from './Components/Header/Header'
+import Header from './Components/Header/Header'
 import Home from './pages/Home'
 
 function App() {
@@ -10,5 +10,4 @@ function App() {
    </div>
   );
 }
-
 export default App;
