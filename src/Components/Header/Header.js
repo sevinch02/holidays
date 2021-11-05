@@ -5,13 +5,13 @@ const Header = () => {
     <div className="header">
       <div className="row">
         <Link className="header-link" to="/">
-          Fiesta
+          Home
         </Link>
         <nav className="navbar">
           <Link to="/" className="navbar__link">
             My Favourites
           </Link>
-          <Link className="navbar__link" to="">Contact us</Link>
+          <Link className="navbar__link" to="/">Contact us</Link>
         </nav>
       </div>
     </div>
