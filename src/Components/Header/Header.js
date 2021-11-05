@@ -4,14 +4,19 @@ const Header = () => {
   return (
     <div className="header">
       <div className="row">
+        <nav className="navbar">
         <Link className="header-link" to="/">
           Home
         </Link>
-        <nav className="navbar">
-          <Link to="/" className="navbar__link">
+          <Link to="/favourites" className="navbar__link">
             My Favourites
           </Link>
-          <Link className="navbar__link" to="/">Contact us</Link>
+          <Link to="/holidays" className="navbar__link">
+            Holidays
+          </Link>
+          <div>
+            <Link className="About" to="/about-us">About us</Link>
+          </div>
         </nav>
       </div>
     </div>

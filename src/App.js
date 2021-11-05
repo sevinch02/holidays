@@ -2,6 +2,10 @@ import logo from './logo.svg';
 
 import Header from './Components/Header/Header';
 import Home from './pages/Home'
+import Favourites from './pages/Favourites';
+import Holidays from './pages/Holidays';
+import Aboutus from './pages/About-us';
+
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -15,10 +19,12 @@ function App() {
    <div className="wrapper">
   <Router>
             <Header />
+            
           <Routes>
-          <Route path="/">
-            <Home />
-          </Route>
+          <Route path="/" element={<Home/>}> </Route>
+          <Route path="/favourites" element={<Favourites/>}> </Route>
+          <Route path="/holidays" element={<Holidays/>}> </Route>
+          <Route path="/about-us" element={<Aboutus/>}> </Route>
         </Routes>
           </Router>
     
