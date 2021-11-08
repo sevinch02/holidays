@@ -6,7 +6,7 @@ import Favourites from './pages/Favourites';
 import Holidays from './pages/Holidays';
 import Aboutus from './pages/About-us';
 import Animation from './Components/Animation/Animation';
-import CountryGrid from '../Components/CountryGrid/CountryGrid'
+
 
 import React from "react";
 import {
@@ -28,7 +28,6 @@ function App() {
           <Route path="/holidays" element={<Holidays/>}> </Route>
           <Route path="/about-us" element={<Aboutus/>}> </Route>
           <Route path="/animation" element={<Animation/>}> </Route>
-          <Route path="/country-grid" element={<CountryGrid/>}> </Route>
         </Routes>
           </Router>
     

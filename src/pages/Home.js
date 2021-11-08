@@ -1,5 +1,6 @@
 import react from "react";
 import CountryGrid from '../Components/CountryGrid/CountryGrid'
+import Footer from "../Components/Footer/Footer";
 
 const Home=()=>{
     return (
@@ -8,6 +9,7 @@ const Home=()=>{
             <h1 className='sayt-name'>FIESTA</h1>
         </section> 
         <CountryGrid/>
+        <Footer/>
         </div>
     )
 }
