@@ -12,6 +12,7 @@ const Header = () => {
             My Favourites
           </Link>
           <Link className="navbar__link" to="/"> Holiday</Link>
+          <Link className="navbar__link" to="/"> About us</Link>
         </nav>
       </div>
     </div>
