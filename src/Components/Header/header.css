@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Indie+Flower&family=Josefin+Sans:ital,wght@0,400;1,300&family=Playfair+Display+SC&family=Poppins:wght@500&family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Josefin+Sans&display=swap');
 
 .container{
     max-width: 1110px;
@@ -9,9 +9,31 @@
     display: flex;
     justify-content: space-between;
 }
+.navbar__link{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.navbar__link::after{
+    
+    content: '';
+    width: 5px;
+    height: 2px;
+    color: white;
+    top: 0;
+}
 .header{
+    padding-top: 40px;
     background-repeat: no-repeat;
     background-size: cover;
-   
     height: 100vh;
+}
+.sayt-name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 200px;
+    text-align: center;
+    color: white;
 }
