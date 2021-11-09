@@ -7,6 +7,7 @@ import Holidays from './pages/Holidays';
 import Aboutus from './pages/About-us';
 import Animation from './Components/Animation/Animation';
 
+
 import React from "react";
 import {
   BrowserRouter as Router,
