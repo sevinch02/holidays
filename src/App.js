@@ -6,6 +6,7 @@ import Favourites from './pages/Favourites';
 import Holidays from './pages/Holidays';
 import Aboutus from './pages/About-us';
 import Animation from './Components/Animation/Animation';
+import 'antd/dist/antd.css';
 
 
 import React from "react";
