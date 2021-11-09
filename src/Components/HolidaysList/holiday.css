@@ -1,0 +1,20 @@
+
+
+.todays_holiday{
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: rgb(104, 58, 104);
+}
+
+.card{
+    margin: 30px;
+}
+.cards_text{
+    background-color: blueviolet;
+    width: 382px;
+}
+.flag{
+    width: 40px;
+    height: 40px;
+}

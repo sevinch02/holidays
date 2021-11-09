@@ -1,9 +1,12 @@
-import react from "react";
+
+import Slider from "../Components/Slider/Slider";
+import Holiday from '../Components/HolidaysList/Holiday'
 
 const Home=()=>{
     return (
         <section className='first-section'>
-            <h1 className='sayt-name'>FIESTA</h1>
+           <Slider/>
+           <Holiday/>
         </section>
     )
 }

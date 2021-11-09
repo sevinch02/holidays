@@ -28,6 +28,7 @@ function App() {
           <Route path="/about-us" element={<Aboutus/>}> </Route>
           <Route path="/animation" element={<Animation/>}> </Route>
         </Routes>
+
           </Router>
     
    </div>

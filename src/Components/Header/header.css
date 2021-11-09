@@ -8,32 +8,20 @@
 .row{
     display: flex;
     justify-content: space-between;
-}
-.navbar__link{
-    text-decoration: none;
-    margin: 20px;
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    
+    align-items: center;
 }
 
-.navbar__link::after{
-    
-    content: '';
-    width: 5px;
-    height: 2px;
-    color: white;
-    top: 0;
+a{
+    text-decoration: none;
 }
 .header{
-    padding-top: 40px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    padding: 20px;
+    background-color: rgb(88, 5, 88);
 }
 .sayt-name{
     font-family: 'Dancing Script', cursive;
-    font-size: 200px;
+    font-size: 50px;
     text-align: center;
-    color: white;
+    color: violet;
+    margin: 0;
 }
