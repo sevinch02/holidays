@@ -1,9 +1,4 @@
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import React from "react";
-// // Import Swiper styles
-// // import 'swiper/css';
-// // import Slider from 'react-slick';
-import {Link} from "react-router-dom";
+
 import '../Slider/slider.css'
 
 const Slider=() => {
