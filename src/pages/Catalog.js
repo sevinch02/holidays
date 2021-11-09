@@ -1,7 +1,9 @@
-const HolidaysCatalog = () => {
+import CountriesCatalog from '../Components/CountriesCatalog/CountriesCatalog'
+
+const CountryCatalog = () => {
     return (
-        <h3>this is holidays catalog page</h3>
+        <CountriesCatalog/>
     )
 }
 
-export default HolidaysCatalog;
+export default CountryCatalog;
