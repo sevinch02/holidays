@@ -9,17 +9,21 @@ import Footer from "../Components/Footer/Footer";
 
 const Home=()=>{
     return (
+       
         <div>
         <section className='first-section'>
            <Slider/>
            <Holiday/>
         </section>
            
-        <CountryGrid/>
-        <Footer/>
+        <CountryGrid/> 
+        <div>
+         <Footer/>
+         </div>
        </div>
+        
+     
+    );
+};
 
-    )
-}
-
-export default Home
+export default Home;

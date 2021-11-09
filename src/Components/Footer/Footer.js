@@ -1,6 +1,4 @@
-
 import React from 'react'
-
 function date() {
     let today = new Date();
     let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
@@ -12,7 +10,7 @@ const Footer = () => {
   
 
   return (
-    <div>
+    <div className="footer">
       <h2>This is footer page</h2>
       <div className="row">
         <h3>FIESTA</h3>
