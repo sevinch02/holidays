@@ -6,18 +6,43 @@
     text-align: center;
     color: rgb(104, 58, 104);
 }
+.holiday-cards{
+    position: relative;
+}
+.holiday-cards:after{
+    content: '';
+    width: 300px;
+    height: 450px;
+    background-color:  #C850C0 ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left:30px;
+    visibility: hidden;
+}
+
 
 .card{
     margin: 30px;
 }
 
+.name{
+    margin-left: 20px;
+}
 .cards_text{
     width: 300px;
     background-color: blueviolet;
 }
+.flags{
+    margin-right: 30px;
+}
 .flag{
-    width: 40px;
-    height: 40px;
+    margin-right: -20px;
+    width: 30px;
+    height: 30px;
+}
+.flag:hover{
+    margin-right: 20px;
 }
 
 body, html{

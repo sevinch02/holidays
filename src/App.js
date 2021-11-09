@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import Header from './Components/Header/Header';
 import Home from './pages/Home'
 import Catalog from './pages/Catalog'
+import ViewHoliday from './pages/ViewHoliday'
 import 'antd/dist/antd.css';
 
 
@@ -23,7 +24,7 @@ function App() {
           <Routes>
           <Route path="/" element={<Home/>}> </Route>
           <Route path="/catalog" element={<Catalog/>}> </Route>
-         
+          <Route path="/viewholiday" element={<ViewHoliday/>}> </Route>
         </Routes>
 
           </Router>

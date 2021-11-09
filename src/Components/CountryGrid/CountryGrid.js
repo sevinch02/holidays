@@ -1,42 +1,141 @@
+
 import React from 'react';
 import css from './countrygrid.css'
-// import {Link} from 'react';
-import { Row, Col, Divider } from 'antd';
-
-
+import{Link} from 'react-router-dom'
 
 const CountryGrid = () => {
-    const DemoBox = props => <p className={`height-${props.value}`}>{props.children}</p>;
-  
-    return (<div>
-          <Divider orientation="left">Align Middle</Divider>
-    <Row justify="space-around" align="middle">
-      <Col span={4}>
-        <DemoBox value={100}>col-4</DemoBox>
-      </Col>
-      <Col span={4}>
-        <DemoBox value={50}>col-4</DemoBox>
-      </Col>
-      <Col span={4}>
-        <DemoBox value={120}>col-4</DemoBox>
-      </Col>
-      <Col span={4}>
-        <DemoBox value={80}>col-4</DemoBox>
-      </Col>
-    </Row>
+    return (
+    <div className="container12">
+    <div className="grid-container" >
+        <Link to="" className=" grid-item slide-down four col" style={{width: 188 , height: 300}}>
+            <div className="box">
+             <span className="original">
+                <img className=" " style={{width: 188 , height: 300}} 
+                 src="img/dubai.jpg" alt=""/>
+               </span>
+             <div className="overlay">
+              <i className="fa fa-users fa-3x" aria-hidden="true">111</i>
+              </div>
+           </div>
+          </Link>
+       <Link to=""className=" grid-item slide-down four col" style={{width :436 , height: 300}} > 
+        <div className="box" >
+        <span className="original" > 
+        <img className="" style={{width :436 , height: 300}}
+         src="img/london.jpg"alt=""/> 
+        </span>
+        <div className="overlay">
+            <i className="fa fa-users fa-3x" aria-hidden="true">dssdffff</i>
+          </div>
+        </div>
+       </Link>
+       <Link to="" className="grid-item slide-down four col"  style={{width :268 ,height: 300}} > 
+          <div className="box">
+              <span className="original">
+             <img  className="" style={{width :268 ,height: 300}} 
+              src="img/korea.jpg"alt="korea"/> 
+         </span>
+         <div className="overlay">
+            <i className="fa fa-users fa-3x" aria-hidden="true">dssdffff</i>
+          </div>
+         </div>
+         </Link>
+         <Link to="" className=" grid-item slide-down four col"  style={{ width: 468 , height: 300 }} >
+         <div className="box">
+             <span className="original" >
+             <img  className="" style={{ width: 468 , height: 300 }} src="img/milano-middle.jpg"alt="roma"/> 
+             </span>
+             <div className="overlay">
+                 <i className="fa fa-users fa-3x" aria-hidden="true">dssdffff</i>
+               </div>
+         </div>
+          </Link>
+          <Link to="" className="grid-item slide-down four col grid-item" style={{width:241, height:300}} >  
+          <div className="box"> 
+              <span className="original">
+              <img  className="" style={{width:241, height:300}} 
+              src="img/dubai.jpg"alt="dubi"/> 
+              </span>
+        
+               <div className="overlay">
+                   <i className="fa fa-users fa-3x" aria-hidden="true">dssdffff</i>
+                  </div>
+          </div>
+         </Link>
+         <Link to=""  className=" grid-item slide-down four col"  style={{width: 427 , height: 300 }} >
+             <div className="box">
+                 <span className="original">
+                 <img  className="" style={{width: 427 , height: 300 }} src="img/moskva-large.jpg"alt="russia"/> 
+                 </span>
+                 <div className="overlay">
+                   <i className="fa fa-users fa-3x" aria-hidden="true">dssdffff</i>
+                  </div>
+             </div>
+             </Link>
+       <Link to=""  className="grid-item slide-down four col"  style={{width: 481 , height: 300 }}> 
+       <div className="box">
+           <span className="original">
+           <img  className="grid-item" style={{width: 481 , height: 300 }} src="img/singopur-large.jpg"alt="singapure"/> 
+           </span>
+           <div className="overlay">
+                   <i className="fa fa-users fa-3x" aria-hidden="true">dssdffff</i>
+            </div>
+       </div>
+       
+       </Link>
+       <Link to=""  className="grid-item slide-down four col"   style={{width:214, height:300}}>
+        <div className="box">
+            <span className="original">
+            <img  className="" style={{width:214, height:300}} src="img/parij.jpg"alt="parij"/>
+            </span>
+            <div className="overlay">
+                   <i className="fa fa-users fa-3x" aria-hidden="true">dssdffff</i>
+                  </div>
+        </div>   
+         </Link>
+    <Link to=""  className="grid-item slide-down four col"  style={{width:468 , height:300}}>
+    <div className="box">
+    <span className="original">
+    <img  className="" style={{width:468 , height:300}}  src="img/rim.jpg"alt="roma"/> 
+    </span>   
+    <div className="overlay">
+                   <i className="fa fa-users fa-3x" aria-hidden="true">dssdffff</i>
+                  </div> 
+    </div>    
+     </Link>
+       <Link to=""  className=" grid-item slide-down four col"  style={{width: 437, height:300}} > 
+        <div className="box"> 
+            <span className="original">
+           <img className="" style={{width: 437, height:300}}  src="img/new-york-small.jpg"alt="america"/> 
+        </span>
+        <div className="overlay">
+                   <i className="fa fa-users fa-3x" aria-hidden="true">dssdffff</i>
+                  </div>
+        </div>
+        </Link>
+        <Link to=""  className=" grid-item slide-down four col"  style={{width: 492, height:300}} > 
+        <div className="box">
+            <span className="original">
+            <img  className="" style={{width: 492, height:300}}  src="img/san-fransisko.jpg"alt="america"/> 
+            </span>
+            <div className="overlay">
+                   <i className="fa fa-users fa-3x" aria-hidden="true">dssdffff</i>
+                  </div>
+        </div>
+        </Link>
+    <Link to=""  className="grid-item slide-down four col"  style={{width:346 , height:300}}> 
+    <div className="box"> 
+        <span className="original">
+      <img  className="" style={{width:346 , height:300}}  src="img/ispaniya.jpg"alt="ispania"/> 
+     </span>
+     <div className="overlay">
+          <i className="fa fa-users fa-3x" aria-hidden="true">dssdffff</i>
+     </div>
+      </div>
+      </Link>
     </div>
-    
-        // <div className="CountryGrid">
-        //     <h3>Find by Country</h3>
-        //     <div className="grid-container" >        
-        //     <img className="grid-item country-grid__img" src="img/dubai.jpg"  alt="duabi" /> 
-        //     <img style={{height: 310 , objectFit: 'cover' }} className="grid-item country-grid__img" src="img/istanbul.jpg" alt=""  /> 
-        //     <img className="grid-item country-grid__img " src="img/london.jpg" alt="london "  /> 
-        //     <img className="grid-item country-grid__img" src="img/korea.jpg" alt="korea"  /> 
-        //     <img className="grid-item country-grid__img" src="img/parij.jpg" alt="parij"  />
-        //     <img className="grid-item country-grid__img" src="img/rim.jpg" alt="roma"  /> 
-        //    </div>
-        // </div>
+    <Link to="/catalog" > <button type="button"> cataloga otish </button> </Link>
+    </div>
     );
 };
 export default CountryGrid;
