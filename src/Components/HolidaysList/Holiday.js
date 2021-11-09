@@ -35,7 +35,7 @@ const Holiday=()=>{
                     <img className='flag' src='/img/baa.svg'/>
                 </div>
                 </div>
-                <button>View holiday</button>  
+                <Link to='/viewholiday'>View holiday</Link>  
                 </div>
                 <Link to='/catalog'>ALL</Link>
             </div>

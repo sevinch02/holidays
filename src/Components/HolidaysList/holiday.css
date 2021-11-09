@@ -6,6 +6,12 @@
     text-align: center;
     color: rgb(104, 58, 104);
 }
+.holiday-cards:after{
+    content: '';
+    width: 300px;
+    height: 400px;
+    background-color: ;
+}
 
 .card{
     margin: 30px;
