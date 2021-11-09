@@ -28,8 +28,8 @@ const Holiday=()=>{
                 <div className='cards_text'>
 
                 <div className='row'>
-                <h1>EID</h1>  
-                <div>
+                <h1 className='name'>EID</h1>  
+                <div className='flags'>
                     <img className='flag' src='/img/quvayt.jpg'/>
                     <img className='flag' src='/img/saudiya.png'/>
                     <img className='flag' src='/img/baa.svg'/>
@@ -37,7 +37,6 @@ const Holiday=()=>{
                 </div>
                 <Link to='/viewholiday'>View holiday</Link>  
                 </div>
-                <Link to='/catalog'>ALL</Link>
             </div>
             </div>
         </div>
