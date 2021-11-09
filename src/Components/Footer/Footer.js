@@ -23,6 +23,7 @@ const Footer = () => {
             <li>Instagram</li>
             <li>Telegram</li>
             <li>Facebook</li>
+            <li>Hi</li>
         </ul>
 
       </div>
