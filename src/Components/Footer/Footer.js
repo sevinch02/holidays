@@ -5,7 +5,7 @@ function date() {
     let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
     let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
     let dateTime = date+' '+time;
-  return   dateTime;
+     return   dateTime;
 }
 const Footer = () => {
   
@@ -23,6 +23,7 @@ const Footer = () => {
             <li>Instagram</li>
             <li>Telegram</li>
             <li>Facebook</li>
+            <li>ozgartirvoman</li>
         </ul>
 
       </div>
