@@ -5,6 +5,7 @@ const Holiday=()=>{
     return(
         <div container='container'>
             <h1 className='todays_holiday'>Today's holidays</h1>
+            <div className="holiday-cards">
             <div className='card'>
                 <img src='/img/eid.jpg'/>
                 <div className='cards_text'>
@@ -19,6 +20,7 @@ const Holiday=()=>{
                 </div>
                 <button>View holiday</button>  
                 </div>
+            </div>
             </div>
         </div>
     )
