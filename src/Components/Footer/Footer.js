@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+// const Footer=()=>{
+//     return(
+//         <h1>this is footer</h1>
+//     )
+// }
+=======
 import React from 'react'
 
 function date() {
@@ -33,3 +40,4 @@ const Footer = () => {
 };
 
 export default Footer;
+>>>>>>> af8ea078f1414c734091ccfdc84fc58574302fc7
