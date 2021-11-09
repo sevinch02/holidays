@@ -10,9 +10,10 @@
 .card{
     margin: 30px;
 }
+
 .cards_text{
+    width: 300px;
     background-color: blueviolet;
-    width: 382px;
 }
 .flag{
     width: 40px;
