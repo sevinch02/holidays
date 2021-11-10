@@ -1,30 +1,23 @@
-import React from 'react'
-function date() {
-    let today = new Date();
-    let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-    let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-    let dateTime = date+' '+time;
-     return   dateTime;
-}
-const Footer = () => {
-  
+import React from 'react';
+import cssfoot from './footer.css'
 
+const Footer = () => {
   return (
     <div className="footer">
-      <h2>This is footer page</h2>
+      <div className="container">
       <div className="row">
-        <h3>FIESTA</h3>
-        <ul>
-            <li>Holiday</li>
-            <li>Country</li>
-        </ul>    {date()}
-        <ul className="socical-links" >
-            <li>Instagram</li>
-            <li>Telegram</li>
-            <li>Facebook</li>
-            <li>Hi</li>
+        <h3 className=' footer__title'>FIESTA</h3>
+        <ul className="footer-links">
+            <li className="footer__link">Holiday</li>
+            <li className="footer__link">Country</li>
+        </ul>    
+        <ul className="social-links footer-links" >
+            <li className="social__link"> <i className="icon-Instagram" > </i> Instagram</li>
+            <li className="social__link">Telegram</li>
+            <li className="social__link">Facebook</li>
         </ul>
 
+      </div>
       </div>
 
     </div>

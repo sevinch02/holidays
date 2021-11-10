@@ -1,0 +1,20 @@
+.footer{
+    background-color: red;
+    padding: 40px;
+}
+.footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 700;
+}
+.footer-links{
+    list-style-type: none;
+}
+.footer__link{
+    font-size: 19px;
+     font-family: 'Josefin Sans', sans-serif;
+}
