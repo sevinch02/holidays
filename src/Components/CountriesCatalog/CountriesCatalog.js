@@ -22,7 +22,7 @@ const CountriesCatalog = () => {
         return (
             <div className="wrapper">
             <div  className="cols" key={el.id}>
-                      <Link to='/' className="col" >
+                      <Link to='/viewcountry' className="col" >
                           <div className="container">
                               <div className="front" style={{backgroundImage: `url(${el.flags.png})`}}>
                                   <div className="inner">

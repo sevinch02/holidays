@@ -14,6 +14,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import ViewCountry from './pages/ViewCountry';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/" element={<Home/>}> </Route>
           <Route path="/catalog" element={<Catalog/>}> </Route>
           <Route path="/viewholiday" element={<ViewHoliday/>}> </Route>
+          <Route path="/viewcountry" element={<ViewCountry/>}> </Route>
         </Routes>
 
           </Router>
