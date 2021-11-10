@@ -61,9 +61,12 @@
 /* SLIDE DOWN DELAY */
 
 .slide-down .overlay{
-    background-color: #ee6f8c;
+    /* background-color: #ee6f8c; */
+    background: linear-gradient(#e66465, #9198e5);
+    opacity: 0.6;
     line-height: 200px;
     color: #fff;
+    font-size: 21px;
     transform: translateY(-100%);
     -webkit-transition: transform 0.5s ease-out;
     -o-transition: transform 0.5s ease-out;
@@ -92,7 +95,7 @@
     right: 0;
     bottom: 0;
   }
-  .column {
+  .column-grid {
     display: block;
     float:left;
     /* margin: 1% 0 1% 1.6%; */
