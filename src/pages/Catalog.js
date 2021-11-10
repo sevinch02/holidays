@@ -2,7 +2,10 @@ import CountriesCatalog from '../Components/CountriesCatalog/CountriesCatalog'
 
 const CountryCatalog = () => {
     return (
-        <CountriesCatalog/>
+        <div className='countrycards'>
+
+            <CountriesCatalog/>
+        </div>
     )
 }
 

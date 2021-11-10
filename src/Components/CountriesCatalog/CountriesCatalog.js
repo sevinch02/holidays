@@ -1,6 +1,7 @@
 import { Radio, Input, Space } from 'antd';
 import { useState, useEffect } from 'react';
-
+import '../CountriesCatalog/CountriesCatalog.css'
+import { Link } from 'react-router-dom';
 
 const ALL_MOVIES_API = `https://restcountries.com/v3.1/all`;
 const SEARCH_API = `https://restcountries.com/v3.1/name`;
@@ -18,11 +19,28 @@ const CountriesCatalog = () => {
     }, []);
 
     const mappedContinents = country.map( el => {
-        return (<div className="continent" key={el.id}>
-            <img src={el.flags.png} alt=""/>
-            <h2 className="country-name">{el.name.common}</h2>
-            <h3 className="country-capital">{el.capital}</h3>
-            </div>)
+        return (
+            <div className="wrapper">
+            <div  className="cols" key={el.id}>
+                      <Link to='/' className="col" >
+                          <div className="container">
+                              <div className="front" style={{backgroundImage: `url(${el.flags.png})`}}>
+                                  <div className="inner">
+                                      <p>{el.name.common}</p>
+                        <span>{el.capital}</span>
+                                  </div>
+                              </div>
+                              <div className="back">
+                                  <div className="inner">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </Link>
+                          </div>
+                      </div>
+               
+        )
     })
 
     const onChange = (e) => {
@@ -63,7 +81,7 @@ const CountriesCatalog = () => {
       <button type="submit" className="submit-button">Submit</button>
                 </div>
             </aside>
-            <div className="mappedHolidays">
+            <div className='row'>
                 {mappedContinents}
             </div>
             </div>
