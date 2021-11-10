@@ -19,15 +19,19 @@
     
   
   .wrapper{
-    width: 90%;
+    width: 400px;
     margin: 0 auto;
     max-width: 80rem;
+  }
+  .countries{
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .cols{
     display: -webkit-box;
     display: -ms-flexbox;
-   
+  
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;

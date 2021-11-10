@@ -81,9 +81,10 @@ const CountriesCatalog = () => {
       <button type="submit" className="submit-button">Submit</button>
                 </div>
             </aside>
-            <div className='row'>
+           <div className='countries'>
                 {mappedContinents}
-            </div>
+             </div>
+            
             </div>
 
         </div>
