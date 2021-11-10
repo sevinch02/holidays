@@ -6,6 +6,9 @@
     background-size:cover ;
     height: 400px;
 }
+.bgimage{
+    background-repeat: no-repeat;
+}
 
 .holi{
     width: 100%;
