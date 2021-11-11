@@ -8,6 +8,10 @@
 }
 .bgimage{
     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 400px;
+    padding: 40px;
 }
 
 .holi{
