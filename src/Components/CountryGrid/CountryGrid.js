@@ -7,7 +7,7 @@ const CountryGrid = () => {
     return (
     <div className="container12">
     <div className="grid-container" >
-        <Link to="/viewcountry" className=" grid-item slide-down four column-grid" style={{width: 188 , height: 300}}>
+        <Link to="/catalog/:id" className=" grid-item slide-down four column-grid" style={{width: 188 , height: 300}}>
             <div className="box">
              <span className="original">
                 <img className=" " style={{width: 188 , height: 300}} 
@@ -18,7 +18,7 @@ const CountryGrid = () => {
               </div>
            </div>
           </Link>
-       <Link to="/viewcountry"className=" grid-item slide-down four column-grid" style={{width :436 , height: 300}} > 
+       <Link to="/catalog/:id"className=" grid-item slide-down four column-grid" style={{width :436 , height: 300}} > 
         <div className="box" >
         <span className="original" > 
         <img className="" style={{width :436 , height: 300}}
@@ -29,7 +29,7 @@ const CountryGrid = () => {
           </div>
         </div>
        </Link>
-       <Link to="/viewcountry" className="grid-item slide-down four column-grid"  style={{width :268 ,height: 300}} > 
+       <Link to="/catalog/:id" className="grid-item slide-down four column-grid"  style={{width :268 ,height: 300}} > 
           <div className="box">
               <span className="original">
              <img  className="" style={{width :268 ,height: 300}} 
@@ -40,7 +40,7 @@ const CountryGrid = () => {
           </div>
          </div>
          </Link>
-         <Link to="/viewcountry" className=" grid-item slide-down four column-grid"  style={{ width: 468 , height: 300 }} >
+         <Link to="/catalog/:id" className=" grid-item slide-down four column-grid"  style={{ width: 468 , height: 300 }} >
          <div className="box">
              <span className="original" >
              <img  className="" style={{ width: 468 , height: 300 }} src="img/milano-middle.jpg"alt="roma"/> 
@@ -50,7 +50,7 @@ const CountryGrid = () => {
                </div>
          </div>
           </Link>
-          <Link to="/viewcountry" className="grid-item slide-down four column-grid grid-item" style={{width:421, height:300}} >  
+          <Link to="/catalog/:id" className="grid-item slide-down four column-grid grid-item" style={{width:421, height:300}} >  
           <div className="box"> 
               <span className="original">
               {/* <img  className="" style={{width:401, height:300}} 
@@ -63,7 +63,7 @@ const CountryGrid = () => {
                   </div>
           </div>
          </Link>
-         <Link to="/viewcountry"  className=" grid-item slide-down four column-grid"  style={{width: 480 , height: 300 }} >
+         <Link to="/catalog/:id"  className=" grid-item slide-down four column-grid"  style={{width: 480 , height: 300 }} >
              <div className="box">
                  <span className="original">
                  <img  className="" style={{width: 480 , height: 300 }} src="img/moskva-large.jpg"alt="russia"/> 
@@ -73,7 +73,7 @@ const CountryGrid = () => {
                   </div>
              </div>
              </Link>
-       <Link to="/viewcountry"  className="grid-item slide-down four column-grid"  style={{width: 599 , height: 300 }}> 
+       <Link to="/catalog/:id"  className="grid-item slide-down four column-grid"  style={{width: 599 , height: 300 }}> 
        <div className="box">
            <span className="original">
            <img  className="grid-item" style={{width: 599 , height: 300 }} src="img/singopur-large.jpg"alt="singapure"/> 
@@ -84,7 +84,7 @@ const CountryGrid = () => {
        </div>
        
        </Link>
-       <Link to="/viewcountry"  className="grid-item slide-down four column-grid"   style={{width:270, height:300}}>
+       <Link to="/catalog/:id"  className="grid-item slide-down four column-grid"   style={{width:270, height:300}}>
         <div className="box">
             <span className="original">
             <img  className="" style={{width:270, height:300}} src="img/parij.jpg"alt="parij"/>
@@ -94,7 +94,7 @@ const CountryGrid = () => {
                   </div>
         </div>   
          </Link>
-    <Link to="/viewcountry"  className="grid-item slide-down four column-grid"  style={{width:428 , height:300}}>
+    <Link to="/catalog/:id"  className="grid-item slide-down four column-grid"  style={{width:428 , height:300}}>
     <div className="box">
     <span className="original">
     <img  className="" style={{width:428 , height:300}}  src="img/uzbekistan.jpg"alt="roma"/> 
@@ -104,7 +104,7 @@ const CountryGrid = () => {
                   </div> 
     </div>    
      </Link>
-       <Link to="/viewcountry"  className=" grid-item slide-down four column-grid"  style={{width: 205, height:300}} > 
+       <Link to="/catalog/:id"  className=" grid-item slide-down four column-grid"  style={{width: 205, height:300}} > 
         <div className="box"> 
             <span className="original">
            <img className="" style={{width: 205, height:300}}  src="img/new-york-small.jpg"alt="america"/> 
@@ -114,7 +114,7 @@ const CountryGrid = () => {
                   </div>
         </div>
         </Link>
-        <Link to="/viewcountry"  className=" grid-item slide-down four column-grid"  style={{width: 490, height:300}} > 
+        <Link to="/catalog/:id"  className=" grid-item slide-down four column-grid"  style={{width: 490, height:300}} > 
         <div className="box">
             <span className="original">
             <img  className="" style={{width: 490, height:300}}  src="img/san-fransisko.jpg"alt="america"/> 
@@ -124,7 +124,7 @@ const CountryGrid = () => {
                   </div>
         </div>
         </Link>
-    <Link to="/viewcountry"  className="grid-item slide-down four column-grid"  style={{width:628 , height:300}}> 
+    <Link to="/catalog/:id"  className="grid-item slide-down four column-grid"  style={{width:628 , height:300}}> 
     <div className="box"> 
         <span className="original">
       <img  className="" style={{width:628 , height:300}}  src="img/cairo.jpg"alt="cairo"/> 
@@ -134,7 +134,7 @@ const CountryGrid = () => {
      </div>
       </div>
       </Link>
-      <Link to="/viewcountry" className="grid-item slide-down four column-grid" style={{width:521 , height:300}}>
+      <Link to="/catalog/:id" className="grid-item slide-down four column-grid" style={{width:521 , height:300}}>
       <div className="box"> 
         <span className="original">
       <img  className="" style={{width:521 , height:300}}  src="img/istanbul.jpg"alt="istanbul"/> 
