@@ -6,6 +6,7 @@ import Catalog from './pages/Catalog'
 import ViewHoliday from './pages/ViewHoliday'
 import 'antd/dist/antd.css';
 import NotFound from "./pages/Notfound";
+import './index.css';
 
 
 import React from "react";
