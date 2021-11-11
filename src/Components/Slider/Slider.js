@@ -57,5 +57,9 @@ const Slider=() => {
   );
 };
 
+<<<<<<< HEAD
 
 export default Slider;
+=======
+export default Slider
+>>>>>>> 9a170c9f222fcf06464ec36b611a2b8ac0cc5b3d
