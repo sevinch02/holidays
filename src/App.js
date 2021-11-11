@@ -7,6 +7,7 @@ import ViewHoliday from './pages/ViewHoliday'
 import 'antd/dist/antd.css';
 import NotFound from "./pages/Notfound";
 import './index.css';
+import SkrollToTop from './Components/SkrollToTop';
 
 
 import React from "react";
@@ -23,6 +24,7 @@ function App() {
    <div className="Main">
   <Router>
             <Header />
+            <SkrollToTop/>
             
           <Routes>
           <Route path="/" element={<Home/>}> </Route>
