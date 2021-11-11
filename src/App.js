@@ -7,6 +7,7 @@ import ViewHoliday from './pages/ViewHoliday'
 import 'antd/dist/antd.css';
 import NotFound from "./pages/Notfound";
 import './index.css';
+import SkrollToTop from './Components/SkrollToTop';
 
 
 
@@ -26,12 +27,19 @@ function App() {
    <div className="Main">
   <Router>
             <Header />
+            <SkrollToTop/>
             
           <Routes>
           <Route path="/" element={<Home/>}> </Route>
-          <Route path="/catalog" element={<Catalog/>}> </Route>
+
+          <Route path="/countrycatalog" element={<Catalog/>}> </Route>
           <Route path="/viewholiday" element={<ViewHoliday/>}> </Route>
           <Route path="/viewcountry" element={<ViewCountry/>}> </Route>
+
+          <Route path="/catalog" element={<Catalog/>}> </Route>
+          <Route path="/holiday/:id" element={<ViewHoliday/>}> </Route>
+          <Route path="/catalog/:id" element={<ViewCountry/>}> </Route>
+
           
           <Route path="*" element={<NotFound/>}></Route>
         </Routes>

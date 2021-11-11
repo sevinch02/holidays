@@ -12,6 +12,36 @@ code {
     monospace;
 }
 
+/*===================View Holiday Page =================*/
+.viewHoliday{
+  /* background-color: red; */
+
+}
+.holiday-cards{
+  /* background-color: royalblue; */
+  display: flex;
+  flex-direction: row ; 
+}
+.card{  
+  /* background-color: yellow; */
+  width: 50%;
+}
+.holiday-image{
+  width: 600px;
+}
+.view-holiday-overview{
+  padding: 20px;
+  width: 50%;
+  /* background-color: rgb(190, 170, 170); */
+  margin: 20px;
+}
+.view-holiday__overview{
+  font-size: 23px;
+  font-weight: 400;
+}
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
 .error-container {
@@ -164,4 +194,5 @@ letter-spacing: 1px;
   text-align: center;
   margin: 30px 15px;
 }
+
 
