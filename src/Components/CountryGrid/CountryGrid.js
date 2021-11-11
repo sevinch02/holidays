@@ -135,7 +135,7 @@ const CountryGrid = () => {
       </div>
       </Link>
     </div>
-    <Link to="/catalog" > <button type="button"> cataloga otish </button> </Link>
+    <Link to="/countrycatalog" > <button type="button"> cataloga otish </button> </Link>
     </div>
     );
 };
