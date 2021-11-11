@@ -26,9 +26,15 @@ function App() {
             
           <Routes>
           <Route path="/" element={<Home/>}> </Route>
+
           <Route path="/countrycatalog" element={<Catalog/>}> </Route>
           <Route path="/viewholiday" element={<ViewHoliday/>}> </Route>
           <Route path="/viewcountry" element={<ViewCountry/>}> </Route>
+
+          <Route path="/catalog" element={<Catalog/>}> </Route>
+          <Route path="/holiday/:id" element={<ViewHoliday/>}> </Route>
+          <Route path="/catalog/:id" element={<ViewCountry/>}> </Route>
+
           
           <Route path="*" element={<NotFound/>}></Route>
         </Routes>
