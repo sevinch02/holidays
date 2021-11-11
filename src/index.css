@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-<<<<<<< HEAD
+
 /*===================View Holiday Page =================*/
 .viewHoliday{
   /* background-color: red; */
@@ -39,7 +39,7 @@ code {
   font-size: 23px;
   font-weight: 400;
 }
-=======
+
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
@@ -194,4 +194,4 @@ letter-spacing: 1px;
   margin: 30px 15px;
 }
 
->>>>>>> 9a170c9f222fcf06464ec36b611a2b8ac0cc5b3d
+
