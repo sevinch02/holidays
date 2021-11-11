@@ -159,3 +159,9 @@ font-size: 13px;
 margin-top: 50px;
 letter-spacing: 1px;
 }
+
+.error-text {
+  margin-top: 35px;
+  font-size: 35px;
+  color: #bbb;
+}
