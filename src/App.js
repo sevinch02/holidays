@@ -17,6 +17,7 @@ import {
   Link
 } from "react-router-dom";
 import ViewCountry from './pages/ViewCountry';
+import HolidaysCatalog from './Components/Holidayscatalog/HolidaysCatalog';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/" element={<Home/>}> </Route>
 
           <Route path="/countrycatalog" element={<Catalog/>}> </Route>
+          <Route path="/holidaycatalog" element={<HolidaysCatalog/>}> </Route>
           <Route path="/viewholiday" element={<ViewHoliday/>}> </Route>
           <Route path="/viewcountry" element={<ViewCountry/>}> </Route>
 
