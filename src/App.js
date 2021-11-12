@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-
 import Header from './Components/Header/Header';
 import Home from './pages/Home'
 import Catalog from './pages/Catalog'
@@ -7,8 +6,7 @@ import ViewHoliday from './pages/ViewHoliday'
 import 'antd/dist/antd.css';
 import NotFound from "./pages/Notfound";
 import './index.css';
-
-
+import SkrollToTop from './Components/SkrollToTop';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -24,14 +22,17 @@ function App() {
    <div className="Main">
   <Router>
             <Header />
+            <SkrollToTop/>
             
           <Routes>
           <Route path="/" element={<Home/>}> </Route>
 
           <Route path="/countrycatalog" element={<Catalog/>}> </Route>
+
           <Route path="/holidaycatalog" element={<HolidaysCatalog/>}> </Route>
           <Route path="/viewholiday" element={<ViewHoliday/>}> </Route>
           <Route path="/viewcountry" element={<ViewCountry/>}> </Route>
+
 
           <Route path="/catalog" element={<Catalog/>}> </Route>
           <Route path="/holiday/:id" element={<ViewHoliday/>}> </Route>

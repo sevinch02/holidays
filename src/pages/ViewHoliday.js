@@ -5,28 +5,30 @@ const ViewHoliday=()=>{
    
     return(
     <div className="viewHoliday" >
-        <h1>this is viewHoliday page</h1>
+   
      
         <div className="holiday-cards ">   
       
         <div className="view-holiday-overview"> 
         <h1 className="holiday-title"> Holi bayrami </h1>
-          <p className="view-holiday__overview">
-           Hindistonda nishonlanadigan ranglar bayrami,  Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami</p>
-          <h4 className="">
+        <span className="">
             Popularity:
-      {/* {holidayInfo.popularity} */}</h4>
-          <h4 className="">
+      {/* {holidayInfo.popularity} */}</span> 
+          <span className="">
             Days:
              {/* {holidayInfo}  */}
-          </h4>
-          {/* <p className="movie-title">vote count : {holidayInfo} </p> */}
+          </span>
+          <span className="holiday-title">Countries : 
+           </span>
+          <p className="view-holiday__overview">
+           Hindistonda nishonlanadigan ranglar bayrami,  Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami,Hindistonda nishonlanadigan ranglar bayrami</p>
+       
         </div>   
         <div className="card">
       
   
-      <img className='holiday-image' src="./img/eid.jpg" 
-       alt='' />
+      <img className='holiday-image' src="/img/eid.jpg" 
+       alt='img' />
     </div>   
       </div>
       <Greetingcard/>

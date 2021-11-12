@@ -1,5 +1,6 @@
 import React from 'react';
 import cssfoot from './footer.css'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -8,8 +9,8 @@ const Footer = () => {
       <div className="row">
         <h3 className=' footer__title'>FIESTA</h3>
         <ul className="footer-links">
-            <li className="footer__link">Holiday</li>
-            <li className="footer__link">Country</li>
+           <Link to='/holiday'> <li className="footer__link">Holiday</li> </Link>
+          <Link to="/catalog">  <li className="footer__link">Country</li> </Link>
         </ul>    
         <ul className="social-links footer-links" >
             <li className="social__link"> <i className="icon-Instagram" > </i> Instagram</li>
