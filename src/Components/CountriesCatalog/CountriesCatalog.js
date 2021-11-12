@@ -1,7 +1,8 @@
 import { Radio, Input, Space } from 'antd';
 import { useState, useEffect } from 'react';
-import '../CountriesCatalog/CountriesCatalog.css'
+import './CountriesCatalog.css'
 import { Link } from 'react-router-dom';
+import Loader from "../Loader/Loader";
 
 const ALL_MOVIES_API = `https://restcountries.com/v3.1/all`;
 const SEARCH_API = `https://restcountries.com/v3.1/name`;
@@ -10,13 +11,19 @@ const CountriesCatalog = () => {
 
     const [continent, setContinent] = useState(0);
     const [country, setCountry] = useState([])
+    const [isLoading, setIsLoading ] = useState(true);
 
     useEffect(() => {
-        fetch(ALL_MOVIES_API).then(res => res.json()).then( data => {
-            console.log(data)
-            setCountry(data);
-        });
-    }, []);
+        setTimeout(() => {
+            fetch(ALL_MOVIES_API).then(res => res.json()).then( data => {
+                console.log(data)
+                setCountry(data);
+                setIsLoading(false);
+            });
+        }, []);
+        }, 2000);
+
+
 
     const mappedContinents = country.map( el => {
         return (
@@ -41,7 +48,7 @@ const CountriesCatalog = () => {
                       </div>
                
         )
-    })
+    });
 
     const onChange = (e) => {
         console.log(e.target.value);
@@ -82,7 +89,7 @@ const CountriesCatalog = () => {
                 </div>
             </aside>
            <div className='countries'>
-                {mappedContinents}
+                {isLoading ? <Loader /> : mappedContinents}
              </div>
             
             </div>
