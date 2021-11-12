@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Home from './pages/Home'
 import Catalog from './pages/Catalog'
 import ViewHoliday from './pages/ViewHoliday'
+import ViewCountry from './pages/ViewCountry'
 import 'antd/dist/antd.css';
 import NotFound from "./pages/Notfound";
 import './index.css';
@@ -16,7 +17,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import ViewCountry from './pages/ViewCountry';
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
           <Route path="/" element={<Home/>}> </Route>
           <Route path="/catalog" element={<Catalog/>}> </Route>
           <Route path="/holiday/:id" element={<ViewHoliday/>}> </Route>
-          <Route path="/catalog/:id" element={<ViewCountry/>}> </Route>
+          <Route path="/country/:id" element={<ViewCountry/>}> </Route>
           
           <Route path="*" element={<NotFound/>}></Route>
         </Routes>

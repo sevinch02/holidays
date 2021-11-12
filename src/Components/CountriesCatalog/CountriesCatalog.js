@@ -21,8 +21,8 @@ const CountriesCatalog = () => {
     const mappedContinents = country.map( el => {
         return (
             <div className="wrapper">
-            <div  className="cols" key={el.id}>
-                      <Link to='/viewcountry' className="col" >
+            <div  className="cols" key={el.cca2}>
+                      <Link to={`/country/${el.cca2}`} className="col" >
                           <div className="container">
                               <div className="front" style={{backgroundImage: `url(${el.flags.png})`}}>
                                   <div className="inner">

@@ -194,4 +194,15 @@ letter-spacing: 1px;
   margin: 30px 15px;
 }
 
+.view-image {
+  width: 250px;
+  height: 250px;
+  background-color: #99749D;
+}
 
+.view-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
