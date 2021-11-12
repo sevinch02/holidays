@@ -40,10 +40,10 @@ const CountryGrid = () => {
           </div>
          </div>
          </Link>
-         <Link to="/catalog/:id" className=" grid-item slide-down four column-grid"  style={{ width: 468 , height: 300 }} >
+         <Link to="/catalog/:id" className=" grid-item slide-down four column-grid"  style={{ width: 599 , height: 300 }} >
          <div className="box">
              <span className="original" >
-             <img  className="" style={{ width: 468 , height: 300 }} src="img/milano-middle.jpg"alt="roma"/> 
+             <img  className="original__img"  src="img/milano-middle.jpg"alt="roma"/> 
              </span>
              <div className="overlay">
                  <i className="fa fa-users fa-3x" aria-hidden="true">Milan</i>
@@ -63,20 +63,20 @@ const CountryGrid = () => {
                   </div>
           </div>
          </Link>
-         <Link to="/catalog/:id"  className=" grid-item slide-down four column-grid"  style={{width: 750 , height: 300 }} >
+         <Link to="/catalog/:id"  className=" grid-item slide-down four column-grid"  style={{width: 876 , height: 300 }} >
              <div className="box">
                  <span className="original">
-                 <img  className="" style={{width: 750 , height: 300 }} src="img/moskva-large.jpg"alt="russia"/> 
+                 <img  className="original__img"  src="img/moskva-large.jpg"alt="russia"/> 
                  </span>
                  <div className="overlay">
                    <i className="fa fa-users fa-3x" aria-hidden="true">Moscow</i>
                   </div>
              </div>
              </Link>
-       <Link to="/catalog/:id"  className="grid-item slide-down four column-grid"  style={{width: 247 , height: 300 }}> 
+       <Link to="/catalog/:id"  className="grid-item slide-down four column-grid"  style={{width: 380 , height: 300 }}> 
        <div className="box">
            <span className="original">
-           <img  className="grid-item" style={{width: 247 , height: 300 }} src="img/singopur-large.jpg"alt="singapure"/> 
+           <img  className="original__img"  src="img/singopur-large.jpg"alt="singapure"/> 
            </span>
            <div className="overlay">
                    <i className="fa fa-users fa-3x" aria-hidden="true">Singapour</i>
@@ -84,10 +84,10 @@ const CountryGrid = () => {
        </div>
        
        </Link>
-       <Link to="/catalog/:id"  className="grid-item slide-down four column-grid"   style={{width:249, height:300}}>
+       <Link to="/catalog/:id"  className="grid-item slide-down four column-grid"   style={{width:376, height:300}}>
         <div className="box">
             <span className="original">
-            <img  className="" style={{width:249, height:300}} src="img/parij.jpg"alt="parij"/>
+            <img  className="original__img"  src="img/parij.jpg"alt="parij"/>
             </span>
             <div className="overlay">
                    <i className="fa fa-users fa-3x" aria-hidden="true">Parij</i>
@@ -114,10 +114,10 @@ const CountryGrid = () => {
                   </div>
         </div>
         </Link>
-        <Link to="/catalog/:id"  className=" grid-item slide-down four column-grid"  style={{width: 490, height:300}} > 
+        <Link to="/catalog/:id"  className=" grid-item slide-down four column-grid"  style={{width: 495, height:300}} > 
         <div className="box">
             <span className="original">
-            <img  className="" style={{width: 490, height:300}}  src="img/san-fransisko.jpg"alt="america"/> 
+            <img  className="original__img"   src="img/san-fransisko.jpg"alt="america"/> 
             </span>
             <div className="overlay">
                    <i className="fa fa-users fa-3x" aria-hidden="true">San Francico</i>
@@ -127,7 +127,7 @@ const CountryGrid = () => {
     <Link to="/catalog/:id"  className="grid-item slide-down four column-grid"  style={{width:628 , height:300}}> 
     <div className="box"> 
         <span className="original">
-      <img  className="" style={{width:628 , height:300}}  src="img/cairo.jpg"alt="cairo"/> 
+      <img  className="original__img" style={{width:628 , height:300}}  src="img/cairo.jpg"alt="cairo"/> 
      </span>
      <div className="overlay">
           <i className="fa fa-users fa-3x" aria-hidden="true">Egypt</i>
