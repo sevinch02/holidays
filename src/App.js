@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import Header from './Components/Header/Header';
 import Home from './pages/Home'
 import Catalog from './pages/Catalog'
-import ViewHoliday from './pages/ViewHoliday'
-import ViewCountry from './pages/ViewCountry'
+import ViewHoliday from './pages/ViewHoliday';
+import ViewCountry from './pages/ViewCountry';
 import 'antd/dist/antd.css';
 import NotFound from "./pages/Notfound";
 import './index.css';
@@ -15,7 +15,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import ViewCountry from './pages/ViewCountry';
+// import ViewCountry from './pages/ViewCountry';
 import HolidaysCatalog from './Components/Holidayscatalog/HolidaysCatalog';
 
 function App() {
@@ -29,11 +29,7 @@ function App() {
           <Route path="/" element={<Home/>}> </Route>
 
           <Route path="/countrycatalog" element={<Catalog/>}> </Route>
-
           <Route path="/holidaycatalog" element={<HolidaysCatalog/>}> </Route>
-          <Route path="/viewholiday" element={<ViewHoliday/>}> </Route>
-          <Route path="/viewcountry" element={<ViewCountry/>}> </Route>
-
 
           <Route path="/catalog" element={<Catalog/>}> </Route>
           <Route path="/holiday/:id" element={<ViewHoliday/>}> </Route>
