@@ -141,6 +141,7 @@ const Holiday=()=>{
                 </div>
                 <Link to='/holiday/:id'>View holiday</Link>  
                 </div>
+                <Link to ='/holidaycatalog'>ALL</Link>
             </div>
             </div>
             </div>
