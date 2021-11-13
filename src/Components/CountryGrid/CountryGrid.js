@@ -1,5 +1,5 @@
 import React from 'react';
-import css from './countrygrid.css'
+import './countrygrid.css'
 import{Link} from 'react-router-dom'
 
 const CountryGrid = () => {
@@ -143,7 +143,7 @@ const CountryGrid = () => {
       </div>
       </Link>
     </div>
-    <Link to="/countrycatalog" > <button type="button"> cataloga otish </button> </Link>
+    <Link to="/countrycatalog" > <button className="gocountry-btn" type="button"> View all Country  </button> </Link>
     </div>
     );
 };

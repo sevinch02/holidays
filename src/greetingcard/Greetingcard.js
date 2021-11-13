@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState} from "react";
+import './greetingcard.css'
 
 
 const Greetingcard = () => {
@@ -13,12 +14,11 @@ const Greetingcard = () => {
     return (
         <div>
             <h2>my Greetingcard card</h2>
-            <div className="">
-            <div className="container">
+          
             {/* onSubmit={handleSubmit}  */}
-                
+            <div className="row">
                 <form className="from" >
-                    <label className="label-text" for="image">Choose image</label>
+                    <label className="label-text" for="image">Choose image</label> 
                     <input className="input" type="file" id="image" value={image} onChange={(e) => {setImage(e.target.value)}}/>
                 <br></br>
                 <label className="label-text" for="name">Card Title:</label>
@@ -28,15 +28,14 @@ const Greetingcard = () => {
                     <input className="input" type="text" id="quanity" value={from} onChange={(e) => {setfrom(e.target.value)}}/>
                 <br></br>  
                 <label className="label-text" for="description">Message:</label>
-                    <input className="input" type="text" id="description" value={mesage} onChange={(e) => {setmesage(e.target.value)}}/>
+                    <textarea className="input" type="textarea" id="description" value={mesage} onChange={(e) => {setmesage(e.target.value)}}/>
                 <br></br>
+                {/* <input type="search" /> */}
                 <button type="submit" className="add-btn">save card</button>
                 </form>
             </div>
         </div>
-           
-        </div>
-    )
-}
+    );
+};
 
 export default Greetingcard;
