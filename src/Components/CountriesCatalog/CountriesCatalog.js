@@ -39,7 +39,7 @@ const CountriesCatalog = () => {
                               </div>
                               <div className="back">
                                   <div className="inner">
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                    <p>Borders: {el.borders} <br/> Capital: {el.capital} <br/> Population: {el.population} </p>
                                   </div>
                               </div>
                           </div>
@@ -85,7 +85,6 @@ const CountriesCatalog = () => {
           <Radio value={7}>Africa</Radio>
         </Space>
       </Radio.Group>
-      <button type="submit" className="submit-button">Submit</button>
                 </div>
             </aside>
            <div className='countries'>
