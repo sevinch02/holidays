@@ -15,10 +15,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-<<<<<<< HEAD
-=======
-// import ViewCountry from './pages/ViewCountry';
->>>>>>> 8af031128959c968a16b89a9af73efa3bdaf505d
 import HolidaysCatalog from './Components/Holidayscatalog/HolidaysCatalog';
 import i18n from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";
