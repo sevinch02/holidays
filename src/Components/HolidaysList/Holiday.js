@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
 import '../HolidaysList/holiday.css'
+import { useTranslation } from "react-i18next";
 
 const Holiday=()=>{
+    const { t } = useTranslation()
     return(
         <div container='container'>
-            <h1 className='todays_holiday'>Today's holidays</h1>
+            <h1 className='todays_holiday'>{t('todayHolidays')}</h1>
             <div className='Holidayss'>
 
             <div className="holiday-cards">

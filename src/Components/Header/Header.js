@@ -3,25 +3,30 @@ import {Link} from "react-router-dom";
 import { Menu, Dropdown, Button, message, Space, Tooltip } from 'antd';
 import { DownOutlined, UserOutlined } from '@ant-design/icons';
 import  '../Header/header.css'
+import i18n from "i18next";
+import { useState } from 'react';
 
-function handleMenuClick(e) {
-  message.info('Click on menu item.');
-  console.log('click', e);
-}
-const menu = (
-  <Menu onClick={handleMenuClick}>
-    <Menu.Item key="1" icon={<UserOutlined />}>
-      Eng
-    </Menu.Item>
-    <Menu.Item key="2" icon={<UserOutlined />}>
-      Ru
-    </Menu.Item>
-    <Menu.Item key="3" icon={<UserOutlined />}>
-      Uzb
-    </Menu.Item>
-  </Menu>
-);
 const Header = () => {
+  
+  const [language, setLanguage] = useState('en');
+
+  const handleChangeLaunguege = lng => {
+    i18n.changeLanguage(lng.key)
+    setLanguage(lng.key);
+  }
+  const menu = (
+    <Menu onClick={handleChangeLaunguege}>
+      <Menu.Item key="en" icon={<UserOutlined />}>
+        Eng
+      </Menu.Item>
+      <Menu.Item key="ru" icon={<UserOutlined />}>
+        Ru
+      </Menu.Item>
+      <Menu.Item key="uz" icon={<UserOutlined />}>
+        Uzb
+      </Menu.Item>
+    </Menu>
+  );
   return (
     <div className="header">
       <div className='container'>
@@ -38,7 +43,7 @@ const Header = () => {
    
     <Dropdown overlay={menu}>
       <Button>
-        Button <DownOutlined />
+        {language} <DownOutlined />
       </Button>
     </Dropdown>
   </Space>,
