@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import Header from './Components/Header/Header';
 import Home from './pages/Home'
 import Catalog from './pages/Catalog'
-import ViewHoliday from './pages/ViewHoliday'
-import ViewCountry from './pages/ViewCountry'
+import ViewHoliday from './pages/ViewHoliday';
+import ViewCountry from './pages/ViewCountry';
 import 'antd/dist/antd.css';
 import NotFound from "./pages/Notfound";
 import './index.css';
@@ -15,6 +15,10 @@ import {
   Route,
   Link
 } from "react-router-dom";
+<<<<<<< HEAD
+=======
+// import ViewCountry from './pages/ViewCountry';
+>>>>>>> 8af031128959c968a16b89a9af73efa3bdaf505d
 import HolidaysCatalog from './Components/Holidayscatalog/HolidaysCatalog';
 import i18n from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";
@@ -51,11 +55,7 @@ function App() {
           <Route path="/" element={<Home/>}> </Route>
 
           <Route path="/countrycatalog" element={<Catalog/>}> </Route>
-
           <Route path="/holidaycatalog" element={<HolidaysCatalog/>}> </Route>
-          <Route path="/viewholiday" element={<ViewHoliday/>}> </Route>
-          <Route path="/viewcountry" element={<ViewCountry/>}> </Route>
-
 
           <Route path="/catalog" element={<Catalog/>}> </Route>
           <Route path="/holiday/:id" element={<ViewHoliday/>}> </Route>

@@ -14,8 +14,7 @@ code {
 
 /*===================View Holiday Page =================*/
 .viewHoliday{
-  /* background-color: red; */
-
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(232,173,204,1) 74%, rgba(148,164,233,1) 100%);
 }
 .holiday-cards{
   /* background-color: royalblue; */
@@ -39,7 +38,29 @@ code {
   font-size: 23px;
   font-weight: 400;
 }
-
+.holiday-overview__content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.holiday-title{
+  color: #fff;
+  font-weight: 700;
+  color: rgb(220, 20, 60);
+}
+.holiday-overview__content__link{
+  /* color:#fff; */
+  color: hsla(348, 83%, 47%, 0.5);
+  font-weight: 700;
+}
+.holiday-overview__content__link:not(:first-child){
+  margin-left: 15px
+}
+.view-holiday__overview{
+  font-weight: 400;
+}
+.greetingcard-content{
+  background-color: #ED8687
+}
 
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
