@@ -13,7 +13,7 @@ const Footer = () => {
           <Link to="/catalog">  <li className="footer__link">Country</li> </Link>
         </ul>    
         <ul className="social-links footer-links" >
-            <li className="social__link"> <i className="icon-Instagram" > </i> Instagram</li>
+            <li className="social__link"> <i className="icon-Instagram" ><span class="icon-instagram1"></span> </i> Instagram</li>
             <li className="social__link">Telegram</li>
             <li className="social__link">Facebook</li>
         </ul>

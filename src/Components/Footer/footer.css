@@ -16,5 +16,23 @@
 }
 .footer__link{
     font-size: 19px;
-     font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
+
+.icon-instagram1:before {
+    content: "\e901";
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.icon-instagram1 {
+    width: 0.857421875em;
+}
+  

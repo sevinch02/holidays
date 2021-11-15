@@ -35,8 +35,8 @@ i18n
         translation: uz
       }
     },
-    lng: "uz",
-    fallbackLng: "en"
+    lng: localStorage.getItem('lang') || 'en',
+    fallbackLng: localStorage.getItem('lang') || 'en'
   });
 
 function App() {

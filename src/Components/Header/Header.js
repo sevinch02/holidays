@@ -7,12 +7,14 @@ import i18n from "i18next";
 import { useState } from 'react';
 
 const Header = () => {
+
+  const [language, setLanguage] = useState(localStorage.getItem('lang') || 'en');
   
-  const [language, setLanguage] = useState('en');
 
   const handleChangeLaunguege = lng => {
     i18n.changeLanguage(lng.key)
     setLanguage(lng.key);
+    localStorage.setItem('lang', lng.key)
   }
   const menu = (
     <Menu onClick={handleChangeLaunguege}>
