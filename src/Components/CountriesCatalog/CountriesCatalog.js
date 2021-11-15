@@ -28,8 +28,8 @@ const CountriesCatalog = () => {
     const mappedContinents = country.map( el => {
         return (
             <div className="wrapper">
-            <div  className="cols" key={el.id}>
-                      <Link to='/viewcountry' className="col" >
+            <div  className="cols" key={el.cca2}>
+                      <Link to={`/country/${el.cca2}`} className="col" >
                           <div className="container">
                               <div className="front" style={{backgroundImage: `url(${el.flags.png})`}}>
                                   <div className="inner">
@@ -39,7 +39,7 @@ const CountriesCatalog = () => {
                               </div>
                               <div className="back">
                                   <div className="inner">
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                    <p>Borders: {el.borders} <br/> Capital: {el.capital} <br/> Population: {el.population} </p>
                                   </div>
                               </div>
                           </div>
@@ -85,7 +85,6 @@ const CountriesCatalog = () => {
           <Radio value={7}>Africa</Radio>
         </Space>
       </Radio.Group>
-      <button type="submit" className="submit-button">Submit</button>
                 </div>
             </aside>
            <div className='countries'>
