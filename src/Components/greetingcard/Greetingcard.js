@@ -7,25 +7,34 @@ const Greetingcard = () => {
   const [image,
     setImage] = useState('');
   const [name,
-    setname] = useState('');
+    setName] = useState('');
   const [description,
     setdescription] = useState('');
   // const [price,setprice]= useState('');
-  const [from,
-    setfrom] = useState('');
+  const [form,
+    setFrom] = useState('');
   const [mesage,
-    setmesage] = useState('');
+    setMesage] = useState('');
   return (
-    <div>
-      <h2>Greeting card for my dears
+    <div className="container12"> 
+    <div className="greetingcard-content">
+      <h2>
+        Greetingcard for your dears
       </h2>
 
       {/* onSubmit={handleSubmit}  */}
-      <div className="row">
-        <form className="from">
 
-            <label className="label-text" for="image">Choose image</label>
-            <input className="input" type="file" id="image" value={image} onChange={(e) => { setImage(e.target.value) }}/>
+      <form className="from">
+        <div className="from-card">
+          <label className="label-text" for="image">Choose image</label>
+          <input
+            className="input"
+            type="file"
+            id="image"
+            accept={image}
+            onChange={(e) => {
+            setImage( e.target.value)
+          }}/>
           <br></br>
           <label className="label-text" for="name">Card Title:</label>
           <input
@@ -34,18 +43,10 @@ const Greetingcard = () => {
             id="name"
             value={name}
             onChange={(e) => {
-            setname(e.target.value)
+            setName(e.target.value)
           }}/>
           <br></br>
-          <label className="label-text" for="from">From</label>
-          <input
-            className="input"
-            type="text"
-            id="quanity"
-            value={from}
-            onChange={(e) => {
-            setfrom(e.target.value)
-          }}/>
+
           <br></br>
           <label className="label-text" for="description">Message:</label>
           <textarea
@@ -54,14 +55,41 @@ const Greetingcard = () => {
             id="description"
             value={mesage}
             onChange={(e) => {
-            setmesage(e.target.value)
+            setMesage(e.target.value)
           }}/>
-          <br></br>
-          {/* <input type="search" /> */}
-          <button type="submit" className="add-btn">save card</button>
-        </form>
-      </div>
+          <br/>
+          <label className="label-text" for="from">From</label>
+          <input
+            className="input"
+            type="text"
+            id="quanity"
+            value={form}
+            onChange={(e) => {
+            setFrom(e.target.value)
+          }}/>
+        </div>
+        <div className="greatingcard-frontend">
+          <div className="greetingcard-content-text">
+            <h3 className="greatingcard-frontend__title">
+              {name}</h3>
+            <div className="greatingcard-frontend__text">
+              <h2 className="greatingcard-frontend__text_message">
+                {mesage}
+              </h2>
+            </div>
+            <p className="greetingcard-content__form">
+            {' with love ' +form }
+          </p>  
+          </div>
+         
+        </div>
+        <div className="greetingcard-content-img" >
+          <img id="image" src={image} alt=""/> {/* <br></br> */}
+        </div>
+      </form>
+      <button type="submit" className="add-btn">save card</button>
     </div>
+    </div>  
   );
 };
 
