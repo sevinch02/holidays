@@ -1,5 +1,5 @@
 // import Holiday from '../Components/HolidaysList/Holiday'
-import Greetingcard from "../greetingcard/Greetingcard";
+import Greetingcard from "../Components/greetingcard/Greetingcard";
 
 const ViewHoliday = () => {
 

@@ -45,7 +45,7 @@ code {
 .holiday-title{
   color: #fff;
   font-weight: 700;
-  color: rgb(220, 20, 60);
+  /* color: rgb(220, 20, 60);  */
 }
 .holiday-overview__content__link{
   /* color:#fff; */
@@ -58,9 +58,10 @@ code {
 .view-holiday__overview{
   font-weight: 400;
 }
-.greetingcard-content{
+/* .greetingcard-content{
   background-color: #ED8687
-}
+} */
+
 
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
@@ -225,6 +226,9 @@ letter-spacing: 1px;
 .view-card {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  
+  justify-content: space-evenly;
+}
+
+.view-card {
+  margin-top: 150px;
 }
