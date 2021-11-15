@@ -15,12 +15,34 @@ import {
   Route,
   Link
 } from "react-router-dom";
-// import ViewCountry from './pages/ViewCountry';
 import HolidaysCatalog from './Components/Holidayscatalog/HolidaysCatalog';
+import i18n from "i18next";
+import { useTranslation, initReactI18next } from "react-i18next";
+import uz from './locales/uz.json'
+import ru from './locales/ru.json'
+import en from './locales/en.json'
+i18n
+  .use(initReactI18next)
+  .init({
+    resources: {
+      en: {
+        translation: en
+      },
+      ru: {
+        translation: ru
+      },
+      uz: {
+        translation: uz
+      }
+    },
+    lng: "uz",
+    fallbackLng: "en"
+  });
 
 function App() {
   return (
    <div className="Main">
+  
   <Router>
             <Header />
             <SkrollToTop/>
