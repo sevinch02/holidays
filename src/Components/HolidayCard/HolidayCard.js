@@ -2,7 +2,7 @@ import React from 'react'
 import '../HolidayCard/holidaycard.css'
 const HolidayCard = ({HolidayObj}) => {
    return(
-       <div className='card'>
+       <div className='cards'>
            <div>
            <img className='card-img' src='/img/archa.jpg'/>
            </div>
