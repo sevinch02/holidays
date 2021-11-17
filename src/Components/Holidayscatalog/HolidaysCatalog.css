@@ -1,0 +1,19 @@
+.SearchHoliday{
+    display: flex;
+    align-items: flex-start;
+   margin-left: 30px;
+   margin-top: 70px;
+}
+
+.form{
+    width: 300px;
+    background-color: rgb(100, 17, 121);
+    padding: 30px;
+}
+
+
+
+.SearchBy{
+    font-size: 20px;
+    color: rgb(250, 134, 250);
+}

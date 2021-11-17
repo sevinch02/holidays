@@ -1,19 +1,17 @@
 import React from 'react'
-
-const HolidayCard = () => {
-    const [countriesHoliday, setCountriesHoliday] = useState([])
-    useEffect(() => {
-        fetch(`https://holidayapi.com/v1/holidays?pretty&key=39538068-eb27-4e6f-8449-83ceea887670`).then(res => res.json())
-          .then(data => {
-            setCountriesHoliday(data.results);
-          });
-      },[])
-    return (
-        <div>
-
-            {countriesHoliday.map( el => ( <Movie movieObj={el} />))}
-        </div>
-    )
+import '../HolidayCard/holidaycard.css'
+const HolidayCard = ({HolidayObj}) => {
+   return(
+       <div className='card'>
+           <div>
+           <img className='card-img' src='/img/archa.jpg'/>
+           </div>
+           <div className='card-text'>
+               <h1>{HolidayObj.name}</h1>
+               <span>{HolidayObj.date}</span>
+           </div>
+       </div>
+   )
     
 }
 

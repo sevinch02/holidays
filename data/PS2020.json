@@ -1,1 +1,204 @@
-{"status":200,"query":{"country":"PS","year":"2020"},"requestId":"86af5628-2314-4d48-a0a2-4834bbf3d2b4","holidays":[{"id":"20200101_89a7b982b886638f86f69b2fa4848d01","name":"New Year's Day","date":"2020-01-01","observed":"2020-01-01","substitute":false,"start":"2020-01-01T00:00:00Z","end":"2020-01-01T23:59:59Z","type":"public","public":true,"country":"PS","subdivisions":[]},{"id":"20200320_59e3ee72b25f6e53b5573a02113860e6","name":"March Equinox","date":"2020-03-20","observed":"2020-03-20","substitute":false,"start":"2020-03-20T00:00:00Z","end":"2020-03-20T23:59:59Z","type":"observance","public":false,"country":"PS","subdivisions":[]},{"id":"20200321_854ee4eead73121064853e284dba3fab","name":"Mother's Day","date":"2020-03-21","observed":"2020-03-21","substitute":false,"start":"2020-03-21T00:00:00Z","end":"2020-03-21T23:59:59Z","type":"observance","public":false,"country":"PS","subdivisions":[]},{"id":"20200321_339f6895050dd95b4aaff9ed7b2e64ec","name":"Muhammad's Ascension to Heaven","date":"2020-03-21","observed":"2020-03-21","substitute":false,"start":"2020-03-21T00:00:00Z","end":"2020-03-21T23:59:59Z","type":"public","public":true,"country":"PS","subdivisions":[]},{"id":"20200501_95562627706b314af06aff2bb091ff7e","name":"Labor Day","date":"2020-05-01","observed":"2020-05-01","substitute":false,"start":"2020-05-01T00:00:00Z","end":"2020-05-01T23:59:59Z","type":"public","public":true,"country":"PS","subdivisions":[]},{"id":"20200523_2d97fbd336524188fe01cc021aa0a548","name":"Festival of Breaking the Fast","date":"2020-05-23","observed":"2020-05-23","substitute":false,"start":"2020-05-23T00:00:00Z","end":"2020-05-23T23:59:59Z","type":"public","public":true,"country":"PS","subdivisions":[]},{"id":"20200620_4498fb35592943d5f223d4843c11fb59","name":"June Solstice","date":"2020-06-20","observed":"2020-06-20","substitute":false,"start":"2020-06-20T00:00:00Z","end":"2020-06-20T23:59:59Z","type":"observance","public":false,"country":"PS","subdivisions":[]},{"id":"20200730_0f0577b0781927c9fee773fad6d208e4","name":"Feast of the Sacrifice","date":"2020-07-30","observed":"2020-07-30","substitute":false,"start":"2020-07-30T00:00:00Z","end":"2020-07-30T23:59:59Z","type":"public","public":true,"country":"PS","subdivisions":[]},{"id":"20200819_437954a968f2ff05451f9c797beea5f9","name":"Islamic New Year's Day","date":"2020-08-19","observed":"2020-08-19","substitute":false,"start":"2020-08-19T00:00:00Z","end":"2020-08-19T23:59:59Z","type":"public","public":true,"country":"PS","subdivisions":[]},{"id":"20200922_1e1ff8febb01ebc6777e80035b927224","name":"September Equinox","date":"2020-09-22","observed":"2020-09-22","substitute":false,"start":"2020-09-22T00:00:00Z","end":"2020-09-22T23:59:59Z","type":"observance","public":false,"country":"PS","subdivisions":[]},{"id":"20201028_75be0b104a9512f761c77a268b32f258","name":"Birth of the Prophet","date":"2020-10-28","observed":"2020-10-28","substitute":false,"start":"2020-10-28T00:00:00Z","end":"2020-10-28T23:59:59Z","type":"public","public":true,"country":"PS","subdivisions":[]},{"id":"20201115_fe0b4b00ae1e25b442fe9389effa1457","name":"Independence Day","date":"2020-11-15","observed":"2020-11-15","substitute":false,"start":"2020-11-15T00:00:00Z","end":"2020-11-15T23:59:59Z","type":"public","public":true,"country":"PS","subdivisions":[]},{"id":"20201221_f1a70a4ea55707c05fc94e1b436f36b5","name":"December Solstice","date":"2020-12-21","observed":"2020-12-21","substitute":false,"start":"2020-12-21T00:00:00Z","end":"2020-12-21T23:59:59Z","type":"observance","public":false,"country":"PS","subdivisions":[]},{"id":"20201224_4b68ab8bff5db6e1bade2eb0da61d39d","name":"Christmas Eve","date":"2020-12-24","observed":"2020-12-24","substitute":false,"start":"2020-12-24T00:00:00Z","end":"2020-12-24T23:59:59Z","type":"observance","public":false,"country":"PS","subdivisions":[]},{"id":"20201225_d413c38c002c58e3c4634025dd3a8521","name":"Christmas Day","date":"2020-12-25","observed":"2020-12-25","substitute":false,"start":"2020-12-25T00:00:00Z","end":"2020-12-25T23:59:59Z","type":"public","public":true,"country":"PS","subdivisions":[]},{"id":"20201231_b46d073bfe5074c09d32f019cf777fe5","name":"New Year's Eve","date":"2020-12-31","observed":"2020-12-31","substitute":false,"start":"2020-12-31T00:00:00Z","end":"2020-12-31T23:59:59Z","type":"observance","public":false,"country":"PS","subdivisions":[]}],"availableFilters":{"language":["af","am","ar","az","be","bg","bn","bs","ca","ceb","co","cs","cy","da","de","el","en","eo","es","et","eu","fa","fi","fr","fy","ga","gd","gl","gu","ha","haw","he","hi","hmn","hr","ht","hu","hy","id","ig","is","it","ja","jw","ka","kk","km","kn","ko","ku","ky","la","lb","lo","lt","lv","mg","mi","mk","ml","mn","mr","ms","mt","my","ne","nl","no","ny","or","pa","pl","ps","pt","ro","ru","rw","sd","si","sk","sl","sm","sn","so","sq","sr","st","su","sv","sw","ta","te","tg","th","tk","tl","tr","tt","ug","uk","ur","uz","vi","xh","yi","yo","zh","zh-TW","zu"]}}
+{
+    "status": 200,
+    "query": {
+        "country": "PS",
+        "year": "2020"
+    },
+    "requestId": "86af5628-2314-4d48-a0a2-4834bbf3d2b4",
+    "holidays": [{
+        "id": "20200101_89a7b982b886638f86f69b2fa4848d01",
+        "name": "New Year's Day",
+        "date": "2020-01-01",
+        "observed": "2020-01-01",
+        "substitute": false,
+        "start": "2020-01-01T00:00:00Z",
+        "end": "2020-01-01T23:59:59Z",
+        "type": "public",
+        "public": true,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20200320_59e3ee72b25f6e53b5573a02113860e6",
+        "name": "March Equinox",
+        "date": "2020-03-20",
+        "observed": "2020-03-20",
+        "substitute": false,
+        "start": "2020-03-20T00:00:00Z",
+        "end": "2020-03-20T23:59:59Z",
+        "type": "observance",
+        "public": false,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20200321_854ee4eead73121064853e284dba3fab",
+        "name": "Mother's Day",
+        "date": "2020-03-21",
+        "observed": "2020-03-21",
+        "substitute": false,
+        "start": "2020-03-21T00:00:00Z",
+        "end": "2020-03-21T23:59:59Z",
+        "type": "observance",
+        "public": false,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20200321_339f6895050dd95b4aaff9ed7b2e64ec",
+        "name": "Muhammad's Ascension to Heaven",
+        "date": "2020-03-21",
+        "observed": "2020-03-21",
+        "substitute": false,
+        "start": "2020-03-21T00:00:00Z",
+        "end": "2020-03-21T23:59:59Z",
+        "type": "public",
+        "public": true,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20200501_95562627706b314af06aff2bb091ff7e",
+        "name": "Labor Day",
+        "date": "2020-05-01",
+        "observed": "2020-05-01",
+        "substitute": false,
+        "start": "2020-05-01T00:00:00Z",
+        "end": "2020-05-01T23:59:59Z",
+        "type": "public",
+        "public": true,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20200523_2d97fbd336524188fe01cc021aa0a548",
+        "name": "Festival of Breaking the Fast",
+        "date": "2020-05-23",
+        "observed": "2020-05-23",
+        "substitute": false,
+        "start": "2020-05-23T00:00:00Z",
+        "end": "2020-05-23T23:59:59Z",
+        "type": "public",
+        "public": true,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20200620_4498fb35592943d5f223d4843c11fb59",
+        "name": "June Solstice",
+        "date": "2020-06-20",
+        "observed": "2020-06-20",
+        "substitute": false,
+        "start": "2020-06-20T00:00:00Z",
+        "end": "2020-06-20T23:59:59Z",
+        "type": "observance",
+        "public": false,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20200730_0f0577b0781927c9fee773fad6d208e4",
+        "name": "Feast of the Sacrifice",
+        "date": "2020-07-30",
+        "observed": "2020-07-30",
+        "substitute": false,
+        "start": "2020-07-30T00:00:00Z",
+        "end": "2020-07-30T23:59:59Z",
+        "type": "public",
+        "public": true,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20200819_437954a968f2ff05451f9c797beea5f9",
+        "name": "Islamic New Year's Day",
+        "date": "2020-08-19",
+        "observed": "2020-08-19",
+        "substitute": false,
+        "start": "2020-08-19T00:00:00Z",
+        "end": "2020-08-19T23:59:59Z",
+        "type": "public",
+        "public": true,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20200922_1e1ff8febb01ebc6777e80035b927224",
+        "name": "September Equinox",
+        "date": "2020-09-22",
+        "observed": "2020-09-22",
+        "substitute": false,
+        "start": "2020-09-22T00:00:00Z",
+        "end": "2020-09-22T23:59:59Z",
+        "type": "observance",
+        "public": false,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20201028_75be0b104a9512f761c77a268b32f258",
+        "name": "Birth of the Prophet",
+        "date": "2020-10-28",
+        "observed": "2020-10-28",
+        "substitute": false,
+        "start": "2020-10-28T00:00:00Z",
+        "end": "2020-10-28T23:59:59Z",
+        "type": "public",
+        "public": true,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20201115_fe0b4b00ae1e25b442fe9389effa1457",
+        "name": "Independence Day",
+        "date": "2020-11-15",
+        "observed": "2020-11-15",
+        "substitute": false,
+        "start": "2020-11-15T00:00:00Z",
+        "end": "2020-11-15T23:59:59Z",
+        "type": "public",
+        "public": true,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20201221_f1a70a4ea55707c05fc94e1b436f36b5",
+        "name": "December Solstice",
+        "date": "2020-12-21",
+        "observed": "2020-12-21",
+        "substitute": false,
+        "start": "2020-12-21T00:00:00Z",
+        "end": "2020-12-21T23:59:59Z",
+        "type": "observance",
+        "public": false,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20201224_4b68ab8bff5db6e1bade2eb0da61d39d",
+        "name": "Christmas Eve",
+        "date": "2020-12-24",
+        "observed": "2020-12-24",
+        "substitute": false,
+        "start": "2020-12-24T00:00:00Z",
+        "end": "2020-12-24T23:59:59Z",
+        "type": "observance",
+        "public": false,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20201225_d413c38c002c58e3c4634025dd3a8521",
+        "name": "Christmas Day",
+        "date": "2020-12-25",
+        "observed": "2020-12-25",
+        "substitute": false,
+        "start": "2020-12-25T00:00:00Z",
+        "end": "2020-12-25T23:59:59Z",
+        "type": "public",
+        "public": true,
+        "country": "PS",
+        "subdivisions": []
+    }, {
+        "id": "20201231_b46d073bfe5074c09d32f019cf777fe5",
+        "name": "New Year's Eve",
+        "date": "2020-12-31",
+        "observed": "2020-12-31",
+        "substitute": false,
+        "start": "2020-12-31T00:00:00Z",
+        "end": "2020-12-31T23:59:59Z",
+        "type": "observance",
+        "public": false,
+        "country": "PS",
+        "subdivisions": []
+    }],
+    "availableFilters": {
+        "language": ["af", "am", "ar", "az", "be", "bg", "bn", "bs", "ca", "ceb", "co", "cs", "cy", "da", "de", "el", "en", "eo", "es", "et", "eu", "fa", "fi", "fr", "fy", "ga", "gd", "gl", "gu", "ha", "haw", "he", "hi", "hmn", "hr", "ht", "hu", "hy", "id", "ig", "is", "it", "ja", "jw", "ka", "kk", "km", "kn", "ko", "ku", "ky", "la", "lb", "lo", "lt", "lv", "mg", "mi", "mk", "ml", "mn", "mr", "ms", "mt", "my", "ne", "nl", "no", "ny", "or", "pa", "pl", "ps", "pt", "ro", "ru", "rw", "sd", "si", "sk", "sl", "sm", "sn", "so", "sq", "sr", "st", "su", "sv", "sw", "ta", "te", "tg", "th", "tk", "tl", "tr", "tt", "ug", "uk", "ur", "uz", "vi", "xh", "yi", "yo", "zh", "zh-TW", "zu"]
+    }
+}

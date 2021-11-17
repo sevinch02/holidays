@@ -2,11 +2,12 @@
 import { useState } from 'react';
 
 import Select from 'react-select';
-import HolidayList from '../HolidaysList/HolidayList';
+
 import { Link } from "react-router-dom";
 
 import { useEffect } from "react/cjs/react.development";
-
+import HolidayCard from '../HolidayCard/HolidayCard';
+import '../Holidayscatalog/HolidaysCatalog.css'
 
 
 
@@ -68,25 +69,74 @@ const HolidaysCatalog = () => {
 
 
 
-  const [countryList, setCountries] = useState([])
-    useEffect(() => {
-        fetch(`https://holidayapi.com/v1/countries?pretty&key=39538068-eb27-4e6f-8449-83ceea887670`).then(res => res.json())
-          .then(data => {
-            setCountries(data.countries);
-            console.log(data)
-          });
-      },[]);
+  // const [countryList, setCountries] = useState([])
+  //   useEffect(() => {
+  //       fetch(`http://localhost:8000/menuData/${id}`).then(res => res.json())
+  //         .then(data => {
+  //           setCountries(data.holidays);
+  //           console.log(data)
+  //         });
+  //     },[]);
   
 
-  const countryOptions = countryList.map(el =>{
-    return {
-        value: el.code,
-        label: el.name
-    }
-  });
+  // const countryOptions = countryList.map(el =>{
+  //   return {
+  //       value: el.code,
+  //       label: el.name
+  //   }
+  // });
 
 
-  
+  const Holidays=[ {
+    "id": "20200101_00c8188290db8ef488dbdf51e116859a",
+    "name": "New Year's Day",
+    "date": "2020-01-01",
+    "observed": "2020-01-01",
+    "substitute": false,
+    "start": "2020-01-01T00:00:00Z",
+    "end": "2020-01-01T23:59:59Z",
+    "type": "public",
+    "public": true,
+    "country": "AZ",
+    "subdivisions": []
+  }, 
+{
+    "id": "20200102_04e080cc1e43199ee5a8e027966b78cb",
+    "name": "Second Day of the New Year",
+    "date": "2020-01-02",
+    "observed": "2020-01-02",
+    "substitute": false,
+    "start": "2020-01-02T00:00:00Z",
+    "end": "2020-01-02T23:59:59Z",
+    "type": "public",
+    "public": true,
+    "country": "AZ",
+    "subdivisions": []
+}, {
+    "id": "20200120_7c00a7610e120e7c594517c2b18b7b66",
+    "name": "Martyrs' Day",
+    "date": "2020-01-20",
+    "observed": "2020-01-20",
+    "substitute": false,
+    "start": "2020-01-20T00:00:00Z",
+    "end": "2020-01-20T23:59:59Z",
+    "type": "public",
+    "public": true,
+    "country": "AZ",
+    "subdivisions": []
+}, {
+    "id": "20200303_ac5b998fef4e19bede812637b884e560",
+    "name": "World Wildlife Day",
+    "date": "2020-03-03",
+    "observed": "2020-03-03",
+    "substitute": false,
+    "start": "2020-03-03T00:00:00Z",
+    "end": "2020-03-03T23:59:59Z",
+    "type": "observance",
+    "public": false,
+    "country": "AZ",
+    "subdivisions": []
+}]
 
   const handleYearChange = (newValue) => {
     setYear(newValue.value);
@@ -117,31 +167,33 @@ const HolidaysCatalog = () => {
         });
     }
     
-      const mappedDiscover =  discover.map( el => ( <HolidayList key={el.code} HolidayObj={el} /> ))
+      const mappedDiscover =  Holidays.map( el => ( <HolidayCard key={el.id} HolidayObj={el} /> ))
       
 
 
   return (
-    <div>
-      <p> <div className="filter" /> Filter </p>
+    <section className='container'>
+
+    <div className='SearchHoliday'>
       <form className='form' method="get">
-      <label>Country name</label>
-        <Select options={countryOptions} onChange={handleCountryChange}/>
-        <label>Year</label>
+      {/* <label>Country name</label> */}
+        {/* <Select options={countryOptions} onChange={handleCountryChange}/> */}
+        <label className='SearchBy'>Year</label>
         <Select options={yearOptions} onChange={handleYearChange} />
-        <label>Month</label>
+        <label className='SearchBy'>Month</label>
         <Select options={monthOptions} onChange={handleMonthChange} />
-        <label>Language</label>
+        <label className='SearchBy'>Language</label>
         <Select options={LanguageOptions} onChange={handleLanguageChange} />
         <br />
         <button className="search-btn" type="button" onClick={handleDiscover}>  Discover </button>
        
       </form>
-      <div className='flex'>
+      <div className='CountryHoliday'>
 
    {mappedDiscover}
       </div>
    </div>
+    </section>
   
   );
 };

@@ -39,7 +39,7 @@ const Holiday=()=>{
                     <img className='flag' src='/img/baa.svg'/>
                 </div>
                 </div>
-                <Link to='/holiday/:id'>View holiday</Link>  
+                <Link className='view' to='/holiday/:id'>View holiday</Link>  
                 </div>
             </div>
             </div>
@@ -73,7 +73,7 @@ const Holiday=()=>{
                     <img className='flag' src='/img/baa.svg'/>
                 </div>
                 </div>
-                <Link to='/holiday/:id'>View holiday</Link>  
+                <Link className='view' to='/holiday/:id'>View holiday</Link>  
                 </div>
             </div>
             </div>
@@ -107,7 +107,7 @@ const Holiday=()=>{
                     <img className='flag' src='/img/baa.svg'/>
                 </div>
                 </div>
-                <Link to='/holiday/:id'>View holiday</Link>  
+                <Link className='view' to='/holiday/:id'>View holiday</Link>  
                 </div>
             </div>
             </div>
@@ -141,11 +141,14 @@ const Holiday=()=>{
                     <img className='flag' src='/img/baa.svg'/>
                 </div>
                 </div>
-                <Link to='/holiday/:id'>View holiday</Link>  
+                <Link className='view' to='/holiday/:id'>View holiday</Link>  
                 </div>
-                <Link to ='/holidaycatalog'>ALL</Link>
             </div>
             </div>
+            </div>
+            <div className='AllLink'>
+
+            <Link className='ALL' to ='/holidaycatalog'>ALL</Link>
             </div>
         </div>
     )
