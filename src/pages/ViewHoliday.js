@@ -31,6 +31,7 @@ const ViewHoliday = () => {
         <div className="card">
           <img className='holiday-image' src="/img/eid.jpg" alt='img'/>
         </div>
+        
       </div>
       <div className="greetingcard-content">
       <Greetingcard/>
@@ -38,5 +39,4 @@ const ViewHoliday = () => {
     </div>
   );
 };
-
 export default ViewHoliday;
