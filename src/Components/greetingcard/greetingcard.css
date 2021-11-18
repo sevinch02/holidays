@@ -6,7 +6,7 @@
 }
 .greetingcard-content-text{
   width: 40%;
-  border: 2px solid red;
+  border: 2px solid rgb(241, 139, 139);
   padding: 10px;
   min-height: 329px;
 }
